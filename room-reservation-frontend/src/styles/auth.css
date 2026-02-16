@@ -1,0 +1,17 @@
+.auth-container {
+  display:flex;
+  height:100vh;
+  justify-content:center;
+  align-items:center;
+}
+.auth-container form {
+  width:300px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+.auth-container input {
+  padding:10px;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
