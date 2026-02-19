@@ -179,6 +179,7 @@ function Reservations() {
                   <p className="fw-bold text-success">
                     Total Price: ₹{booking.totalPrice}
                   </p>
+                  
 
                   <span
                     className={`badge ${
@@ -191,6 +192,7 @@ function Reservations() {
                   >
                     {booking.status}
                   </span>
+
                   {booking.status !== "cancelled" && (
                     <button
                       className="btn btn-outline-danger mt-3 w-100"
